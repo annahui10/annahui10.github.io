@@ -1,0 +1,44 @@
+ 
+
+.list-item{
+    background-color: #d5d5d5;
+    margin: 15px;
+    padding: 15px;
+
+}
+.list-item:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(2, 18, 49);
+    color: rgb(240, 240, 240);
+}
+.car-name-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+}
+.car-about{
+    display: flex;
+    margin: 15px;
+   flex-wrap: wrap;
+}
+.car-img, .car-info{
+    width: 250px;
+    flex-grow: 1;
+     
+}
+.car-info{
+    padding: 0 15px;
+}
+.car-info div{
+    /* margin: 10px 0; */
+}
+.title-vue{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+[v-cloak]{
+    display: none;
+}
