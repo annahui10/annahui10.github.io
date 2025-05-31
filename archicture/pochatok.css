@@ -1,0 +1,13 @@
+.header {
+    height: 90vh;
+    background-image: url(верх.jpg);
+    background-size: cover;
+    background-position: 50% 90%;
+    color: #000000;
+    background-color: #000000;
+    display: flex;
+    /* align-items: center; */
+    padding-top: 20vh;
+    margin-bottom: 50px;
+
+}
